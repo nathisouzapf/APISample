@@ -5,4 +5,4 @@ public enum TypeUser {
 	Administrator,
 	Common;
 
-}
+} 

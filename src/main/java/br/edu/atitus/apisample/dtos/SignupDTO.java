@@ -11,7 +11,7 @@ public class SignupDTO {
 	}
 	public void setName(String name) {
 		this.name = name;
-	}
+	} 
 	public String getEmail() {
 		return email;
 	}

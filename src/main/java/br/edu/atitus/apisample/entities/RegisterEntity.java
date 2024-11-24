@@ -18,7 +18,7 @@ public class RegisterEntity {
 	@Id
 	@GeneratedValue(strategy = GenerationType.UUID)
 	private UUID id;
-	
+	 
 	@ManyToOne
 	@JoinColumn(name = "id_user", nullable = false)
 	private UserEntity user;

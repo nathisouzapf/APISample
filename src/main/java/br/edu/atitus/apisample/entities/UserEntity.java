@@ -14,7 +14,7 @@ import jakarta.persistence.Table;
 @Table(name = "user_tb")
 public class UserEntity {
 	
-	@Id
+	@Id 
 	@GeneratedValue(strategy = GenerationType.UUID)
 	private UUID id;
 	private String name;

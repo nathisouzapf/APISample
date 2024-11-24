@@ -16,7 +16,7 @@ import br.edu.atitus.apisample.services.UserService;
 @RestController
 @RequestMapping("/auth")
 public class AuthController {
-	
+	 
 
 	private final UserService userService;
 	

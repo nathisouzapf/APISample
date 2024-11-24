@@ -15,7 +15,7 @@ public class UserService {
 	
 	public UserService(UserRepository repository) {
 		super();
-		this.repository = repository;
+		this.repository = repository; 
 	}
 
 	private static final String EMAIL_REGEX = "^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}$";

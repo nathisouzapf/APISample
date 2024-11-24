@@ -10,4 +10,4 @@ public class ApiSampleApplication {
 		SpringApplication.run(ApiSampleApplication.class, args);
 	}
 
-}
+} 

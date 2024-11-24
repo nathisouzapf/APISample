@@ -12,3 +12,4 @@ public interface RegisterRepository extends JpaRepository<RegisterEntity, UUID>{
 
 
 }
+ 

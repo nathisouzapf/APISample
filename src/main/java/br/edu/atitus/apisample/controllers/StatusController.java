@@ -14,4 +14,4 @@ public class StatusController {
 		return ResponseEntity.ok("Server is running...");
 	}
 
-}
+} 

@@ -15,7 +15,7 @@ public class RegisterService {
 	
 	public RegisterService(RegisterRepository repository) {
 		this.repository = repository;
-	}
+	} 
 	
 	public RegisterEntity save(RegisterEntity newRegister) throws Exception {
 		
